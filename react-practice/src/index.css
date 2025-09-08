@@ -1,0 +1,24 @@
+/* .li {
+  color: red;
+}
+
+ul {
+  margin-top: -300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} */
+
+body {
+  font-family: "Cairo", sans-serif;
+}
+
+.constainer {
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.imglogo img {
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+}
