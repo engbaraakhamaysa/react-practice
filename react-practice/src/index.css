@@ -1,4 +1,8 @@
-/* .li {
+body {
+  font-family: "Cairo", sans-serif;
+}
+
+.li {
   color: red;
 }
 
@@ -7,12 +11,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-} */
-
-body {
-  font-family: "Cairo", sans-serif;
 }
-
 .constainer {
   padding: 0 10px;
   margin: 0 auto;

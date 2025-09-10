@@ -1,3 +1,4 @@
+/* This is a way to display a img an image in React and the is a better way in an App.js File Use  require("./images.jpg")  */
 import logo from "../images.jpg";
 
 export default function Header() {
