@@ -29,7 +29,7 @@ export default function Card(props) {
         <h1>{props.title}</h1>{" "}
         <p style={{ color: "#717171", fontWeight: "normal" }}>
           {" "}
-          <i class="fa-solid fa-star" style={{ color: "gold" }}></i>
+          <i className="fa-solid fa-star" style={{ color: "gold" }}></i>
           {props.reat}
         </p>
       </div>
