@@ -1,6 +1,10 @@
+//this componet card have a props : tilte & img etc..
+//in ths map the array of object from file data.js the object index 0 he move in the card and creat first card & second card index 1 etc..
+
 export default function Card(props) {
   return (
     <div style={{ width: "400px" }}>
+      {/* Use the div with img b.c I need all imges to same the width & height  */}
       <div
         style={{
           backgroundImage: `url(${props.img})`,
@@ -16,8 +20,10 @@ export default function Card(props) {
         alt="Img"
         style={{
           width: "400px",
+          height: "400px",
+          borderRadius: "10px",
         }}
-    //   /> */}
+      /> */}
       <div
         style={{
           display: "flex",

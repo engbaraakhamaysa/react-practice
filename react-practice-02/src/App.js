@@ -3,7 +3,9 @@ import { data } from "./data.js";
 
 export default function App() {
   console.log(data);
+  //Map he map the array of object the indix 0 is a first object in the card he have a tiele & img etc..  this props in the card
   const dataShow = data.map((el) => (
+    //get the data from the file data.js and creat props attributs data with the array of objects in data file
     <Card
       key={el.id} // key={index} or Use Map prpret index he start to 1 finshed to length data el.id or index
       img={el.imgUrl}

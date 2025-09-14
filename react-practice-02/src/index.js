@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./App";
 import "./Assets/all.min.css";
 
+// get root elemtnt from index.html
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <div>
